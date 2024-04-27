@@ -1,0 +1,1 @@
+1. I pulled the latest image for jenkins server `docker pull jenkins/jenkins:latest` the ran a container with it mapping port 8080 on my local computer to port 8080 of the server where jenkins is running `docker run --name jenkins -p 8080:8080 jenkins/jenkins:latest`
